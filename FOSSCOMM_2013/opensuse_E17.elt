@@ -1,0 +1,279 @@
+layout: 2_columns_left;
+foot_text :"Enlightenment 17 in openSUSE 12.3";
+foot_image: ""; // FIXME needed?
+header_image: "img/logo.png"; // FIXME maybe the opensuse one?
+title: "Ανάπτυξη και χρήση του E17";
+subtitle: "when lizards met beauty";
+
+transition: fade_content;
+
+slide {
+    // do not display the area 'top'. This area is defined in the layout 'title'
+    //ignore_area: "header_image";
+    layout: title;
+    custom_area: "top" 0.15 -0.2 0.85 0.5;
+    header_image: "";
+
+    area {
+        name: "top";
+        image
+        {
+            image: "img/logo.png";
+        }
+    }
+}
+
+slide {
+    layout: 1_area;
+    title: "Who are we?";
+    subtitle: "Drakevr";
+    header_image: ""; //FIXME maybe?
+
+    area {
+        name: center;
+        items {
+            text: " Αλέξανδρος-Παναγιώτης Νάτσιος";
+            text: " email: apnatsios@gmail.com";
+            text: " twitter: @drakevr";
+            text: " facebook: facebook.com/drakevr";
+            text: " irc: Drakevr";
+            text: " cs student @ teilar.gr";
+            text: " Enlightenment Enthusiast and Contributor";
+        }
+    }
+}
+
+slide {
+    layout: 1_area;
+    title: "who are we?";
+    subtitle: "diamond_gr";
+    header_image: "";
+
+    area {
+        name: center;
+        items {
+            text: " Ευστάθιος Ιωσηφίδης";
+            text: " email: eiosifidis@gmail.com";
+            text: " twitter: @eiosifidis";
+            text: " facebook: facebook.com/eiosifidis";
+            text: " irc: diamond_gr";
+            text: " veterinary student @ auth.gr";
+            text: " Enlightenment translator and openSUSE member";
+        }
+    }
+}
+
+slide {
+    layout: 1_area;
+    title: "21 December 2012";
+    subtitle: "";
+    header_image: "openSUSE-E.jpg";
+
+    area {
+        name: center;
+        image { 
+                image: "img/mayan.jpg";
+        }
+    }
+}
+
+slide {
+    layout: 1_area;
+    title: "21 December 2012";
+    subtitle: "Expectation";
+
+    area {
+        name: center;
+        image {
+                image: "img/lefinal.png";
+        }
+    }
+}
+
+slide {
+    layout: 1_area;
+    title: "21 December 2012";
+    subtitle: "Reality";
+
+    area {
+        name: center;
+        image {
+                image: "img/lelogo.png";
+        }
+    }
+}
+
+
+slide {
+    layout: "title";
+    custom_area: "top" 0.15 -0.2 0.85 0.5;
+    title: "B..But... just WHAT is E17?!";
+    subtitle: "Desktop Environment vs Desktop Shell";
+    header_image: "";
+
+    area {
+        name: "top";
+       // image {
+       //     image: "img/logo.png";
+       // }
+    }
+}
+
+slide {
+    layout: 1_area;
+    title: "How it all started";
+    subtitle: "";
+    header_image: "openSUSE-E.jpg";
+
+    area {
+        name: center;
+        items {
+            text: " openSUSE conference 2012 @ praha.cz ";
+            text: " Tomas Cech";
+            text: " openSUSE Connect group (e17-users)";
+            text: " Wiki Portal (also translated in Greek)";
+            text: " Social Media (Facebook / Twitter)";
+            text: " A handful of themes by <shadow>Agust Verdegal</shadow>";
+            text: " localized up to 95%";
+        }
+    }
+}
+
+slide {
+    layout: 1_area;
+    title: "Sounds interesting, i want it!";
+    subtitle: "";
+    header_image: "openSUSE-E.jpg";
+
+    area {
+        name: center;
+        items {
+            text: " Already packaged in 12.3 standard repos as '<shadow>e17</shadow>'";
+            text: " Like all projects there are a few rough edges";
+            text: " Wiki page with a few themes: http://tinyurl.com/oS-Themes";
+        }
+    }
+}
+
+slide {
+    layout: 1_area;
+    title: "A quick glance";
+    subtitle: "";
+    header_image: "openSUSE-E.jpg";
+
+    area {
+        name: center;
+        image {
+                image: "img/e-shot-main.png";
+        }
+    }
+}
+
+slide {
+    layout: "1_area";
+    title: "Lets take a better look";
+    subtitle: "";
+    header_image: "openSUSE-E.jpg";
+
+    area {
+        name: "center";
+        image {
+            image: "img/e-elements.png";
+        }
+    }
+}
+
+slide {
+    layout: 1_area;
+    title: "Everything launcher";
+    subtitle: "";
+    header_image: "openSUSE-E.jpg";
+
+    area {
+        name: center;
+        image {
+            image: "img/RunEverything.jpg";
+        }
+    }
+}
+
+slide {
+    layout: 1_area;
+    title: "Settings Panel";
+    subtitle: "";
+    header_image: "openSUSE-E.jpg";
+
+    area {
+        name: center;
+        image {
+            image: "img/Settings-Panel.png";
+        }
+    }
+}
+
+slide {
+    layout: 1_area;
+    title: "Beyond the Desktop";
+    subtitle: "";
+    header_image: "openSUSE-E.jpg";
+
+    area {
+        name: center;
+        items {
+            text: " Embedded Systems";
+            text: " Infinity I-Kitchen";
+            text: " SetTopBoxes by Free.fr";
+            text: " Special laptops and services by ordissimo";
+            text: " Mobile/TV/Tablet/IVI with Tizen";
+        }
+    }
+}
+
+slide {
+    layout: title;
+    custom_area: "top" 0.15 -0.2 0.85 0.5;
+    title: "The future...";
+    subtitle: "After more than 10 long years... is it ready?";
+    header_image: "";
+    
+    area {
+        name: top;
+        image {
+            image: "img/logo.png";
+        }
+    }
+}
+
+slide {
+    layout: 1_area;
+    title: "Where to find us";
+    subtitle: "";
+    header_image: "openSUSE-E.jpg";
+
+    area {
+        name: center;
+        items {
+            text: " <shadow>openSUSE Connect:</shadow> http://tinyurl.com/oS-egroup";
+            text: " <shadow>facebook.com:</shadow> http://facebook.com/groups/opensuse.e17";
+            text: " <shadow>facebook.com:</shadow> http://facebook.com/enlightenment.gr";
+            text: " <shadow>twitter.com:</shadow> @openSUSE17";
+            text: " <shadow>enlightenment.gr</shadow>";
+            text: " <shadow>irc:</shadow> #opensuse-e and #e.el on irc.freenode.net";
+        }
+    }
+}
+
+slide {
+    layout: 1_area;
+    title: "Questions?";
+    subtitle: "";
+    header_image: "openSUSE-E.jpg";
+
+    area {
+        name: center;
+        items {
+            text: " <shadow><big>Thanks for your attention</big></shadow>";
+            text: " Special thanks to <shadow>Haris Antonatos</shadow> for his gfx aid in the talk";
+        }
+    }
+}

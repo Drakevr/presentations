@@ -1,0 +1,12 @@
+Preparation
+===========
+
+First install all of EFL ( >=1.7.6 ) then get eyelight from enlightenment SVN ( http://svn.enlightenment.org/svn/e/trunk/PROTO/eyelight )
+Compile and install eyelight.
+
+View
+====
+
+cd into the FOSSCOMM_2013 directory and issue the command "eyelight -p opensuse_E17.elt" (without the quotes obviously :p)
+
+For those who are bored to follow the above, just wait for the awesome fosscomm stuff to upload our video somewhere then view that O:-)
