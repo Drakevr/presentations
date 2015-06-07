@@ -1,0 +1,180 @@
+\documentclass{beamer}
+\usepackage{verbatim}
+\usepackage{wrapfig}
+\usepackage{color}
+\usetheme[pageofpages=of,% String used between the current page and the
+                         % total page count.
+          bullet=circle,% Use circles instead of squares for bullets.
+          titleline=true,% Show a line below the frame title.
+          alternativetitlepage=true,% Use the fancy title page.
+          ]{Torino}
+
+\title{Quick and painless intro to the Perl programming language}
+\author{\texorpdfstring{Alex-P. Natsios\newline\url{drakevr@2f30.org}}{Author}}
+\institute{GreekLUG}
+\date{07 Jun 2015}
+\begin{document}
+    \begin{frame}
+       \titlepage
+    \end{frame}
+
+    \begin{frame}
+        \center\huge The Basics
+    \end{frame}
+
+    \begin{frame}{Introduction}
+        \begin{itemize}
+            \item What is Perl? 
+            \item What is perl? 
+            \item What is PERL?
+            \item What is Perl's history?
+            \item What does it look like?
+            \item The motto
+            \item Why should I use Perl?
+            \item Why shouldn't I use Perl?
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}{What is Perl?}
+        \begin{itemize}
+            \item A high level modern programming language
+            \item Open Source and Free
+            \item General purpose
+            \item Interpreted
+            \item Dynamic
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}{What is perl?}
+        \begin{itemize}
+            \item The language Compiler/Interpreter
+            \item Compiles and Interprets code on the fly
+            \item can be used for simple oneliners
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}{What is PERL?}
+        \center\huge {\color{red}WRONG!} This is not a canonical or accepted spelling/case and should never be used!
+    \end{frame}
+
+    \begin{frame}{What is Perl's history}
+        \begin{itemize}
+            \item First version released in 1987
+            \item Current versions include both Perl 5 and Perl 6
+            \item First 5.x version released in 1994
+            \item First version for Perl 6 is expected to arrive this year
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}{What does it look like?}
+        \verbatiminput{files/obfuscated.pl}
+    \end{frame}
+
+    \begin{frame}{What does it look like?}
+        \begin{itemize}
+            \item kidding, that was obfuscated
+            \item written like that for compactness, obscurity or just fun.
+            \item normal Perl is not written like that.
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}{What does it look like?}
+        \small
+        \verbatiminput{files/lingua_romana_perligata.pl}
+    \end{frame}
+
+    \begin{frame}{What does it look like?}
+        \begin{itemize}
+            \item kidding, that was just a module
+            \item written like that for pure fun.
+            \item has a paper to accompany and explain it though!
+            \item normal Perl is not written like that.
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}{What does it look like?}
+       \tiny
+       \verbatiminput{files/camel.pl}
+    \end{frame}
+
+    \begin{frame}{Ok, What does it REALLY look like?}
+       \tiny
+       \verbatiminput{files/reading_files.pl}
+    \end{frame}
+
+    \begin{frame}{The motto}
+    \center\huge {\bf There's more than one way to do it}\\
+    (TMTOWTDI or TIMTOWTDI, pronounced Tim Toady)
+    \end{frame}
+
+    \begin{frame}{Why should I use Perl?}
+        \begin{itemize}
+            \item General Purpose
+            \item Fast and simple to deploy
+            \item Fun
+            \item Speed is not a critical issue.
+            \item Programming freedom (TIMTOWTDI), can code however you like
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}{Why shouldn't I use Perl?}
+        \begin{itemize}
+            \item You have legacy code that is NOT in Perl
+            \item Speed is a critical issue
+            \item Need FULL optimizable performance
+            \item Target system does not have Perl (or cannot install it)
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}
+        \center\huge Package and Versions Management
+    \end{frame}
+
+    \begin{frame}{CPAN}
+        \begin{block}{Comprehensive Perl Archive Network}
+            \begin{itemize}
+                \item Interface for installing modules
+                \item Vast collection of Modules and Documentation
+                \item Found at \url{http://www.cpan.org}
+            \end{itemize}
+        \end{block}
+    \end{frame}
+
+    \begin{frame}{CPANMINUS}
+        \begin{block}{cpanm}
+            \begin{itemize}
+                \item A self bootstrappable script
+                \item Has NO dependencies
+                \item Can Get, Unpack, Install CPAN modules
+                \item Needs only 10M of RAM when running
+                \item Zeroconf, Just works
+            \end{itemize}
+        \end{block}
+    \end{frame}
+
+    \begin{frame}{Perl Binary Management}
+        \begin{block}{plenv}
+            \begin{itemize}
+                \item Simple, UNIX like version management
+                \item Needs git and your regular Build tool collection \\
+                    like build-essential on debian or the C/C++ development pattern on openSUSE
+                \item excellent buddy to Carton (Perl world's ``Bundler'') for dependency management
+            \end{itemize}
+        \end{block}
+    \end{frame}
+
+    \begin{frame}{The community}
+        \center\huge
+        ``One of Perl's biggest strengths is its community\ldots''
+    \end{frame}
+
+    \begin{frame}{Useful links}
+        \url{https://www.perl.org/community.html} \\
+        \url{http://www.pm.org/} \\
+        \url{http://www.perlmonks.com/}
+    \end{frame}
+
+    \begin{frame}{Thank you for your attention}
+        \center\huge Q \& A
+    \end{frame}
+\end{document}
