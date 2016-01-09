@@ -1,0 +1,16 @@
+{
+   "area" : [
+      {
+         "xpos" : INTEGER,
+         "ypos" : INTEGER,
+         "width" : INTEGER,
+         "height" : INTEGER,
+         "type" : ( "match" | "ocr" | "exclude" ),
+         "match" : INTEGER, // 0-100. similarity percentage
+      },
+      ...
+   ],
+   "tags" : [
+      STRING, ...
+   ]
+}
